@@ -1,10 +1,10 @@
-package com.test.lock.app.publicluckcreate;
+package com.maya.ehecatl.app.registro;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PublicLuckCreateApplicationTests {
+class PublicRegistroUserApiApplicationTests {
 
 	@Test
 	void contextLoads() {
