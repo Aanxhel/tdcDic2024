@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SuppressWarnings({ "rawtypes" })
 public class UserController {
 
-	@GetMapping(value = "/registrousuario",consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+	@GetMapping(value = "/holamundo",consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<String> serviceUp() {
 		ResponseEntity entity = null;
 		entity = ResponseEntity.ok().body("{\"status\":\"ok\"}");
